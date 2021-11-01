@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+h1 {
+	text-align: center;
+	font: bold 32px Brush Script MT black;
+	background-color: rgb(223, 255, 204);
+}
+
+h2 {
+	text-align: center;
+	font: italic bold 18px Georgia black;
+	background-color: rgb(223, 255, 204);
+}
+
+body {
+	text-align: center;
+	background-color: rgb(223, 255, 204);
+	font: 18px black;
+}
+
+#ers-login-pic {
+	height: 325px;
+	width: 325x;
+}
+
+#form {
+	font: black 16px;	
+}
+
+div {
+	font: bold 18px black;
+	
+}
+
+#ers-manager-pic {
+	height: 225px;
+	width: 400px;
+}
+
+#ers-employee-pic {
+	height: 225px;
+	width: 400px;
+}

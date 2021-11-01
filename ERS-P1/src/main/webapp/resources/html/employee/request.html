@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../syntax.css">
+<meta charset="ISO-8859-1">
+<title>Submit Expense Request</title>
+</head>
+<body>
+
+	<form id="requestApp" method="post">
+		<label for="amount">Amount: </label>
+		<input type="number" id="amount" name="amount" step="0.01" min="5" required>
+		<label for="type">Type: </label>
+		<select name="type" id="type">
+			<option value="1">Food</option>
+			<option value="2">Lodging</option>
+			<option value="3">Travel</option>
+			<option value="4">Other</option>
+		</select>
+		<br/>
+		<label for="description">Description:</label>
+		<br/>
+		<textarea name="description" id="desc" rows="10" cols="30" maxlength="250"></textarea>
+		<br/>
+		<input type="submit" value="Submit">
+	</form>
+
+	<script src="../../js/submitRequest.js"></script>
+</body>
+</html>
